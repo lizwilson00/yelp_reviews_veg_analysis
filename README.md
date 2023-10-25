@@ -1,5 +1,5 @@
 # Data Engineering Project - Yelp Word Analysis
-## *Is demand for veg-friendly restaurant food increasing?*
+## *Is demand for veg-friendly restaurant food increasing over time?*
 ![Salad](other/../other_files/salad.jpeg "Vegan Salad")
 
 ---
@@ -56,6 +56,7 @@ Writing the cleansed data to a bucket in GCP posted an unexpected challenge.  Th
 
 ### Veg-Related Words Trend over Time
 ![Percentage Trend](other_files/percentage_trend2.jpg "Yelp Review Veg Word Project Percentage Trend")
+
 The data shows that the percentage of veg-related reviews were increasing over time until Covid hit in 2020.  We see a growth from 4.6% to 14% in 2018 and 2019.  In 2020 the percentage dropped to 8.4% and in 2021 it only recovered slightly to 9.6%, right between the 2014 and 2015 percentages.  It would be interesting to look at more recent data to see if percentages post-Covid have moved back to their pre-pandemic levels. 
 
 ### State Breakdown
@@ -65,5 +66,7 @@ Recalling that we only have 13 of the 50 states here, this chart ranks them by t
 
 ### Star Breakdown
 ![Stars Breakdown](other_files/bar_chart_stars2.jpg "Yelp Review Veg Word Breakdown by Stars")
+
 ![Pct Stars Breakdown](other_files/pie_chart_stars.jpg "Yelp Review Percentage Veg Word Breakdown by Stars")
+
 These charts reveal that the majority of veg-related reviews were 5 star reviews.  Individuals seeking vegetarian and vegan food are happy when there are options available for them to eat at a given restaurant - I can attest to this from personal experience!
